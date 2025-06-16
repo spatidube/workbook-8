@@ -17,7 +17,7 @@ public class Main {
         String password = "Passwerd";
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        //try with resources automaticallt closes these resources at the end of the try block
+        //try with resources automatically closes these resources at the end of the try block
         try {
             //1. Establish a connection to the data base
             Connection connection = DriverManager.getConnection

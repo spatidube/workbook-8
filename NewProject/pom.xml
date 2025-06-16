@@ -5,18 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.pluralsight</groupId>
-    <artifactId>NorthwindTraders</artifactId>
+    <artifactId>MyProgram</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-dbcp2</artifactId>
-        </dependency>
-
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+
     </properties>
     <dependencies>
         <dependency>
@@ -29,6 +26,8 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
+
+
     </dependencies>
 
 </project>
